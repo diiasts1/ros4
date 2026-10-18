@@ -8,7 +8,6 @@ Ordering a dish needs five services in the correct order, and the previous steps
 
 ## Components (Lecture 6)
 | Component | Classes |
-|---|---|
 | Facade | `RestaurantFacade` |
 | Complex subsystem | `MenuService`, `InventoryService`, `PaymentService`, `KitchenService`, `NotificationService` (+ `MenuItem`, `ServiceException`) |
 | Client | `Main` (uses only the facade) |
